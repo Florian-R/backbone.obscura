@@ -730,7 +730,7 @@
             module.exports = proxyEvents;
         }
     ];
-    return return  _require(0);
+    return  _require(0);
 }());
 
   return _bundleExports;

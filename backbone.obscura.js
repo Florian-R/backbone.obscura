@@ -480,7 +480,7 @@
                 if (numPagesChanged) {
                     this.trigger('paginated:change:numPages', { numPages: totalPages });
                 }
-                if (this.getPage() >= totalPages) {
+                if (this.getPage() >= totalPages && this.superset().length > 0) {
                     this.setPage(totalPages - 1);
                     return true;
                 }
@@ -730,7 +730,7 @@
             module.exports = proxyEvents;
         }
     ];
-    return  _require(0);
+    return return  _require(0);
 }());
 
   return _bundleExports;

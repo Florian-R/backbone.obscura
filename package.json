@@ -55,7 +55,7 @@
     "test": "./node_modules/karma/bin/karma start --browsers Firefox --single-run"
   },
   "dependencies": {
-    "backbone-paginated-collection": "~0.3.0",
+    "backbone-paginated-collection": "git://github.com/Florian-R/backbone-paginated-collection#aa611416817005df07b6cb5e88372accc559e7f8",
     "backbone-filtered-collection": "~0.3.0",
     "underscore": ">=1.5.1",
     "backbone": ">=1.0.0",
